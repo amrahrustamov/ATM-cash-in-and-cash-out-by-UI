@@ -18,11 +18,9 @@ body .atm {
 body .atm .screen {
   width: 700px;
   height: 600px;
-  background-color: white;
+  background-color: rgb(41, 40, 40);
   position: absolute;
   margin: 50px 100px;
-  display: flex;
-  flex-direction: row;
 }
 body .atm .screen .nameOfBank {
   width: 100%;
@@ -43,6 +41,62 @@ body .atm .screen .nameOfBank .text p {
   font-size: 60px;
   color: white;
   margin-top: 0;
+}
+body .atm .screen .showBalance {
+  width: 700px;
+  height: 50px;
+}
+body .atm .screen .showBalance .text {
+  width: 700px;
+  height: 50px;
+  display: none;
+}
+body .atm .screen .showBalance .text p {
+  margin: 0 0 0 200px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+body .atm .screen .cashInBalance {
+  width: 700px;
+  height: 50px;
+}
+body .atm .screen .cashInBalance .text {
+  display: none;
+}
+body .atm .screen .cashOutBalance {
+  width: 700px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+}
+body .atm .screen .cashOutBalance .text {
+  display: none;
+}
+body .atm .screen .sameTextp {
+  margin: 0 0 0 200px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+body .atm .screen .mainMenu {
+  width: 350px;
+  height: 230px;
+  margin-top: 40px;
+}
+body .atm .screen .mainMenu .menu {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+body .atm .screen .mainMenu .menu p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
 }
 body .atm .buttonsBox {
   width: 90px;
@@ -149,4 +203,8 @@ body .atm .numAndSelButtons .rightPart .selectorButton .noticeColor .acceptColor
 }
 body .atm .numAndSelButtons .rightPart .selectorButton .noticeColor .cancelColor {
   background-color: red;
+}
+
+.textDecoration {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

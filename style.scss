@@ -16,11 +16,9 @@ body {
         .screen {
             width: 700px;
             height: 600px;
-            background-color: white;
+            background-color: rgb(41, 40, 40);
             position: absolute;
             margin: 50px 100px;
-            display: flex;
-            flex-direction: row;
 
             .nameOfBank {
                 width: 100%;
@@ -46,6 +44,71 @@ body {
                     }
                 }
             }
+            .showBalance {
+                width: 700px;
+                height: 50px;
+
+                .text {
+                    width: 700px;
+                    height: 50px;
+                    display: none;
+                    
+                    p {
+                        margin: 0 0 0 200px;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-style: normal;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+
+                
+            }
+            .cashInBalance {
+                width: 700px;
+                height: 50px;
+                .text {
+                    display: none;
+                }
+                
+            }
+            .cashOutBalance {
+                width: 700px;
+                height: 50px;
+                position: absolute;
+                top: 150px;
+                .text {
+                    display: none;
+                }
+            }
+
+            .sameTextp {
+                margin: 0 0 0 200px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-style: normal;
+                font-size: 20px;
+                color: white;
+            }
+            .mainMenu {
+                width: 350px;
+                height: 230px;
+                margin-top: 40px;
+
+                .menu {
+                    width: 200px;
+                    height: 50px;
+                    margin-bottom: 40px;
+                    margin-left: 5px;
+
+                    p {
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-style: normal;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+            }
+
         }
         .buttonsBox {
             width: 90px;
@@ -176,4 +239,7 @@ body {
             }           
         }
     }
+}
+.textDecoration {
+    text-decoration: none;
 }
