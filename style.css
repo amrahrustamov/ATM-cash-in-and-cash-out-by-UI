@@ -95,6 +95,20 @@ body .atm .numAndSelButtons .leftPart .digButton {
   background-color: darkgrey;
   margin-top: 10px;
   border-radius: 5px;
+  display: flex;
+  position: relative;
+}
+body .atm .numAndSelButtons .leftPart .digButton .dig {
+  width: 30px;
+  height: 30px;
+  margin: 6px 0 0 33px;
+}
+body .atm .numAndSelButtons .leftPart .digButton .dig p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  font-size: 25px;
+  margin: 6px 0 0 9px;
+  color: rgb(53, 52, 52);
 }
 body .atm .numAndSelButtons .rightPart {
   width: 150px;
@@ -106,4 +120,33 @@ body .atm .numAndSelButtons .rightPart .selectorButton {
   background-color: darkgrey;
   margin-top: 43px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+body .atm .numAndSelButtons .rightPart .selectorButton .textOfSelector {
+  width: 100px;
+  height: 60px;
+}
+body .atm .numAndSelButtons .rightPart .selectorButton .textOfSelector p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  color: rgb(53, 52, 52);
+  margin-left: 25px;
+}
+body .atm .numAndSelButtons .rightPart .selectorButton .noticeColor {
+  width: 50px;
+  height: 60px;
+}
+body .atm .numAndSelButtons .rightPart .selectorButton .noticeColor .colorBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px 0 0 4px;
+}
+body .atm .numAndSelButtons .rightPart .selectorButton .noticeColor .acceptColor {
+  background-color: green;
+}
+body .atm .numAndSelButtons .rightPart .selectorButton .noticeColor .cancelColor {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

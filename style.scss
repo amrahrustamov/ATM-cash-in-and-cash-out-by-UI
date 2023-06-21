@@ -107,6 +107,22 @@ body {
                     background-color: darkgrey;
                     margin-top: 10px;
                     border-radius: 5px;
+                    display: flex;
+                    position: relative;
+
+                    .dig {
+                        width: 30px;
+                        height: 30px;
+                        margin: 6px 0 0 33px;
+
+                        p {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            display: flex;
+                            font-size: 25px;
+                            margin: 6px 0 0 9px;
+                            color: rgb(53, 52, 52);
+                        }
+                    }
                 }
             }
 
@@ -120,9 +136,44 @@ body {
                     background-color: darkgrey;
                     margin-top: 43px;
                     border-radius: 5px;
+                    display: flex;
+                    flex-direction: row;
+
+                    .textOfSelector {
+                        width: 100px;
+                        height: 60px;
+
+                        p {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-style: normal;
+                            font-size: 19px;
+                            color: rgb(53, 52, 52);
+                            margin-left: 25px;
+                           
+                        }
+                    }
+    
+                    .noticeColor {
+                        width: 50px;
+                        height: 60px;
+
+                        .colorBox {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 10px;
+                            margin: 10px 0 0 4px;                 
+                        }
+
+                        .acceptColor {
+                            background-color: green;
+                        }
+
+                        .cancelColor {
+                            background-color: red;
+                        }
+                    }
                 }
-            }
-            
+            }           
         }
     }
 }
